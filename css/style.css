@@ -242,11 +242,10 @@ address {
 }
 .about {
 }
-.div {
+.austronavt {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 25px 100px;
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
@@ -591,15 +590,12 @@ address {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
 }
 .conected-list-icon {
 	fill: #ffffff;
 }
-.insta,
-.face,
-.linked {
-	background-color: rgba(255, 255, 255, 0.1);
-}
-.twit {
+.conected-list-item-link:focus,
+.conected-list-item-link:hover {
 	background-color: #2196f3;
 }
